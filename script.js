@@ -60,7 +60,7 @@ const memories = [
 {
     title:"Mimosa ⭐",
     image:"fotos/foto2.jpeg",
-    text:"As conversas que pareciam durar poucos minutos sempre acabavam se transformando em horas. E eu nunca queria que terminassem."
+    text:"Nossas conversas tinham o dom de fazer o tempo desaparecer. O que parecia durar minutos se transformava em horas, e ainda assim eu nunca estava pronto para me despedir."
 },
 {
     title:"Gacrux ⭐",
@@ -414,7 +414,7 @@ function showLetter(){
 
 Joyce,
 
-Desde 14 de fevereiro de 2025, o nosso primeiro date, cada dia ao seu lado tornou minha vida mais bonita.
+Desde o nosso primeiro encontro, em 14 de fevereiro de 2025, cada dia ao seu lado tem tornado minha vida mais leve, mais feliz e muito mais bonita.
 
 Entre bilhões de estrelas no universo, a mais especial para mim não está no céu.
 
