@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nossa Constelação no Cruzeiro do Sul ✨</title>
+
+    <!-- Compartilhamento -->
+
+    <meta property="og:title" content="Nossa Constelação no Cruzeiro do Sul ✨">
+    <meta property="og:description" content="Uma homenagem especial para Joyce ❤️">
+    <meta property="og:image" content="fotos/foto_final.jpeg">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Áudios -->
+
+    <audio id="bgMusic" preload="auto" loop>
+        <source src="audio/musica.mpeg" type="audio/mpeg">
+    </audio>
+
+    <audio id="starSound" preload="auto">
+        <source src="audio/star.mpeg" type="audio/mpeg">
+    </audio>
+
+    <!-- INTRO -->
+
+    <div id="intro">
+
+        <div class="intro-box">
+
+            <h1>
+                Nossa Constelação no Cruzeiro do Sul ✨
+            </h1>
+
+            <p class="date">
+                03 de maio de 2026
+            </p>
+
+            <p id="daysTogether" class="daysTogether"></p>
+
+            <p class="location">
+                Porto Grande - AP
+            </p>
+
+            <p class="message">
+
+                Existe uma constelação que guarda nossa história.
+
+                Cada estrela representa um momento especial
+                que vivemos juntos.
+
+                Clique nas estrelas do Cruzeiro do Sul e reviva
+                as lembranças que marcaram nossa jornada.
+
+            </p>
+
+            <button id="startBtn">
+                Começar ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- CÉU -->
+
+    <canvas id="sky"></canvas>
+
+    <!-- CONTADOR -->
+
+    <div id="counter">
+        ❤️ Memórias descobertas: 0/5
+    </div>
+
+    <!-- MODAL DAS MEMÓRIAS -->
+
+    <div id="modal" class="hidden">
+
+        <div class="modal-content">
+
+            <span id="close">&times;</span>
+
+            <img
+                id="memoryImage"
+                src=""
+                alt="Lembrança especial do casal"
+            >
+
+            <h2 id="memoryTitle"></h2>
+
+            <p id="memoryText"></p>
+
+        </div>
+
+    </div>
+
+    <!-- FOTO FINAL -->
+
+    <div id="finalMessage" class="hidden">
+
+        <img
+            src="fotos/foto_final.jpeg"
+            alt="Foto de Luan e Joyce juntos"
+        >
+
+        <h1>
+            Entre bilhões de estrelas, eu encontrei você ❤️
+        </h1>
+
+        <p class="final-date">
+            03 de abril de 2024 ✨<br>
+            O dia em que nossa constelação começou.
+        </p>
+
+        <p id="finalText">
+
+            Entre bilhões de estrelas no universo,
+            a mais especial para mim nunca esteve no céu.
+
+            Ela estava na minha vida a partir do momento que nossas vidas se cruzaram.
+
+            Obrigado por fazer parte da minha vida,
+            dos meus sonhos,
+            das minhas conquistas
+            e dos meus melhores momentos.
+
+            Que esta constelação seja apenas uma pequena lembrança
+            de tudo o que construímos juntos.
+
+            Eu te amo, Joyce.
+
+            Feliz Dia dos Namorados ❤️
+
+        </p>
+
+        <button id="readLetterBtn">
+            Existe uma última mensagem para você ❤️
+        </button>
+
+    </div>
+
+    <!-- CARTA -->
+
+    <div id="letterScreen" class="hidden">
+
+        <div class="letter">
+
+            <h1>
+                Para Joyce ❤️
+            </h1>
+
+            <p id="letterText"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
