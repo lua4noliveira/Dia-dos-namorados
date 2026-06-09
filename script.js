@@ -36,7 +36,7 @@ const daysTogether = document.getElementById("daysTogether");
    DIAS JUNTOS
 ========================== */
 
-const startDate = new Date("2026-04-03");
+const startDate = new Date("2026-02-14");
 const today = new Date("2026-05-12");
 
 const diffDays = Math.floor(
